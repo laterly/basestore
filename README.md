@@ -12,6 +12,9 @@ npm install
 
 npm run dev
 
+//访问地址
+http://127.0.0.1:8080/
+
 //发布
 
 npm run build

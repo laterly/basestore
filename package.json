@@ -4,7 +4,7 @@
   "description": "base-store",
   "scripts": {
     "build-dev": "cross-env  node ./build/dev.js",
-    "build-prod": "cross-env  node  ./build/prod.js",
+    "build": "cross-env  node  ./build/prod.js",
     "dev": "cross-env  webpack-dev-server  --config ./build/webpack.config.dev.js",
     "prod": "cross-env webpack-dev-server --config ./build/webpack.config.prod.js",
     "start": "cross-env  npm run dev"

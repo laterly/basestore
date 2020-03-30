@@ -11,7 +11,7 @@
     name: 'app',
     data () {
       return {
-        transitionName: 'slide-left'
+        
       }
     },
  

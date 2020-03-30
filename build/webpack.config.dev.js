@@ -29,33 +29,13 @@ module.exports = {
     hot: true,
     open: false,
     compress: true,
-    host:'0.0.0.0',
+    host:'127.0.0.1',
     contentBase: "/www/",
     watchOptions: {
       poll: true
     },
     proxy: {
-      '/m': {
-        target: 'http://m.kugou.com',
-        changeOrigin: true,
-        pathRewrite: {
-          '^/m': ''
-        }
-      },
-      '/aproxy': {
-        target: 'http://mobilecdn.kugou.com',
-        changeOrigin: true,
-        pathRewrite: {
-          '^/aproxy': ''
-        }
-      },
-      '/www': {
-        target: 'http://www.kugou.com',
-        changeOrigin: true,
-        pathRewrite: {
-          '^/www': ''
-        }
-      }
+     
     }
   },
   module: {
